@@ -1,0 +1,20 @@
+.Btn {
+  font-family: "Optima";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #27201c;
+  padding: 1rem 1.5rem;
+  text-transform: uppercase;
+  border: 1px solid var(--accent-light);
+}
+
+.BtnPrimary {
+  background-color: var(--accent-light);
+}
+
+.BtnSecondary {
+  background-color: transparent;
+}

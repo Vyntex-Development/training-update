@@ -1,0 +1,28 @@
+.CardsSection {
+  background-color: var(--secondary-light);
+  padding: 5rem 6rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.CardsSection h2,
+.CardsSection p {
+  margin: 0 auto;
+}
+
+.CardsSection p {
+  max-width: 18.75rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.CardsSection h2 {
+  margin-bottom: 1rem;
+}
+
+.CardsWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2.5rem;
+}

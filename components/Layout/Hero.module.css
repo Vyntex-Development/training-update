@@ -1,0 +1,40 @@
+.Hero {
+  display: flex;
+  padding-top: 10rem;
+  height: calc(100vh - 106.91px);
+  padding-bottom: 1rem;
+}
+
+.Hero > div {
+  flex: 1;
+}
+.Hero > div:nth-of-type(1) {
+  /* max-width: 35.97em; */
+  display: flex;
+  flex-direction: column;
+}
+.Hero h1 {
+  margin: 0;
+}
+
+.Paragraph {
+  font-weight: 300;
+  max-width: 18.75rem;
+}
+
+.Treatments {
+  margin-top: auto;
+}
+
+.Treatments div {
+  display: flex;
+}
+
+.Treatments div a {
+  margin-right: 0.25rem;
+}
+
+.Treatments p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,39 @@
+.LinkWrapper {
+  /* padding: 1rem 1.5rem; */
+  border: 1px solid #e9e9e8;
+  backdrop-filter: blur(30px);
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.LinkWrapper a {
+  padding: 1rem 1.5rem;
+  display: inline-block;
+}
+
+.Primary {
+  background-color: var(--accent-light);
+}
+
+.Red {
+  background-color: red;
+}
+
+.HeroLink {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: -0.06em;
+  text-decoration-line: underline;
+  border: none;
+  padding: 0;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  color: #a59f9a;
+}
+
+.HeroLink a {
+  padding: 0;
+}
